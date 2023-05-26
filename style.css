@@ -1,0 +1,50 @@
+#appBg {
+height: 450px;
+width: 320px;
+border: 1px solid black;
+border-radius: 5px;
+
+}
+
+#appBg form {
+height: 100%;
+width: 100%;
+background-color: rgb(12, 0, 0); /*color todo el recuadro*/
+}
+
+#appBg input[type=textfield] {
+width: 90%;
+height:25%;
+cursor: default;
+font-family: 'roboto', sans-serif;
+background-color : rgb(15, 14, 14); /*color de boton tipe=textfield*/
+color:white; /* color de la letra*/
+padding: 15px;
+text-align: right; /*tento a la derecha*/
+font-size: 50px; /* tamaño de letra*/
+border: 0;
+outline: none;
+}
+
+#appBg input[type=button], input[type=reset]{
+      width: 22%;
+      cursor: pointer;
+      font-family: 'roboto', sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      color: black;
+      padding: 18px;
+      margin: 3px;
+      border: 0;
+      border-radius: 100%;
+
+}#appBg .orange{
+
+      background-color: rgb(253, 149, 3);
+      color: white !important;
+}#appBg .grey{
+background-color: rgb(51, 51, 51);
+      color: white !important;
+}
+
+
